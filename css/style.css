@@ -1,0 +1,122 @@
+/* CSS Initial Set-up */
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+nav,
+footer {
+  margin: 0;
+}
+/* CSS Initial Set-up ends here  */
+
+/* utility class */
+.b-red {
+  border: 1px solid red;
+}
+
+.b-blue {
+  border: 1px solid blue;
+}
+/* utility class ends */
+
+/* Header CSS Starts here  */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 11.2rem;
+  height: 11.2rem;
+}
+
+.logo-box {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.logo-box img {
+  width: 23rem;
+  height: 6rem;
+}
+
+.logo-box a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  background-color: #f37d35;
+  color: white;
+  padding: 0.9rem 1.8rem;
+  border-radius: 1.5rem;
+}
+
+.menu-box {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.menu-box ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding-left: 8.5rem;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.menu-box ul li a {
+  text-decoration: none;
+  background: #0e465a;
+  color: #fff;
+  font-weight: normal;
+  border-color: rgba(255, 255, 255, 0.37);
+  padding: 0.7rem;
+}
+
+.menu-box p {
+  font-size: 1.3rem;
+}
+
+.menu-box p a {
+  font-size: 1.3rem;
+  color: #000;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+/* Header CSS Ends Here  */
+
+/* Carousel CSS Starts Here  */
+.carousel-container {
+  height: 71.4rem;
+  border: 1px solid red;
+}
+
+/* Carosel CSS Ends Here  */
