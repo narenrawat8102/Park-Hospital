@@ -373,5 +373,126 @@ header {
 footer {
   height: 55.1rem;
   background: #0e465a;
+  padding-top: 1rem;
+}
+
+.footer-container {
+  width: 117rem;
+  height: 47rem;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-box {
+  width: 29.2rem;
+  height: 47rem;
+  padding: 0 1rem;
+}
+
+.footer-box h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 1.5rem 0 1rem;
+}
+
+.footer-box ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.footer-box ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.footer-box table {
+  margin-top: 0.9rem;
+  width: 100%;
+}
+
+.footer-box table td {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+}
+
+.footer-box img {
+  width: auto;
+  height: 8.2rem;
+  margin-top: 2rem;
+}
+
+.copyright-box {
+  height: 7.2rem;
+  width: 100%;
+  background: #093c4f;
+  display: flex;
+}
+
+.copy-box,
+.copy-logo {
+  width: 50%;
+  height: 7.2rem;
+}
+
+.copy-box p {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  padding: 2.6rem 0;
+}
+
+.copy-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.copy-logo img {
+  height: 3.3rem;
+  width: 3.3rem;
+}
+
+.copy-logo i {
+  width: 3.3rem;
+  height: 3.3rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  color: black;
+  font-size: 1.7rem;
+  padding-top: 0.7rem;
+}
+
+.copy-logo .fa-facebook:hover {
+  background-color: rgb(59, 89, 151);
+  color: #fff;
+}
+
+.copy-logo .fa-twitter:hover {
+  background-color: rgb(0, 172, 237);
+  color: #fff;
+}
+
+.copy-logo .fa-linkedin:hover {
+  background-color: rgb(0, 90, 135);
+  color: #fff;
+}
+
+.copy-logo .fa-youtube:hover {
+  background-color: rgb(238, 62, 62);
+  color: #fff;
+}
+
+.copy-logo .fa-dribbble:hover {
+  background-color: rgb(227, 82, 138);
+  color: #fff;
 }
 /* Footer CSS Ends Here  */
