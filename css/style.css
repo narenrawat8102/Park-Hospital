@@ -8,6 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 1.6rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -32,16 +33,6 @@ footer {
   margin: 0;
 }
 /* CSS Initial Set-up ends here  */
-
-/* utility class */
-.b-red {
-  border: 1px solid red;
-}
-
-.b-blue {
-  border: 1px solid blue;
-}
-/* utility class ends */
 
 /* Header CSS Starts here  */
 header {
@@ -87,33 +78,79 @@ header {
   padding-right: 1.5rem;
 }
 
-.menu-box ul {
-  display: flex;
+nav {
+  margin-left: 85px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
-  gap: 2rem;
-  padding-left: 8.5rem;
-  align-items: center;
-  height: 3.5rem;
+  position: relative;
 }
 
-.menu-box ul li a {
-  text-decoration: none;
-  background: #0e465a;
+nav ul li {
+  display: inline-block;
+  background-color: #0e465a;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
   color: #fff;
-  font-weight: normal;
-  border-color: rgba(255, 255, 255, 0.37);
-  padding: 0.7rem;
-}
-
-.menu-box p {
-  font-size: 1.3rem;
-}
-
-.menu-box p a {
-  font-size: 1.3rem;
-  color: #000;
+  font-size: 20px;
+  line-height: 35px;
   text-decoration: none;
-  margin-right: 1.5rem;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: rgb(243, 125, 53);
+  text-decoration: none;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 36px;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  background-color: rgb(221, 221, 221);
+}
+
+nav ul ul li {
+  border-bottom: 1px solid #fff;
+}
+
+nav ul ul li a {
+  color: #000;
+}
+
+.info-tollfree a,
+.info-tollfree p {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.info-tollfree a:hover {
+  color: rgb(243, 125, 53);
+}
+
+.info-tollfree .fa-envelope + a {
+  margin-right: 25px;
 }
 /* Header CSS Ends Here  */
 
@@ -494,5 +531,21 @@ footer {
 .copy-logo .fa-dribbble:hover {
   background-color: rgb(227, 82, 138);
   color: #fff;
+}
+
+.book-appointment {
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.book-appointment img {
+  width: 25rem;
+  height: 5.9rem;
 }
 /* Footer CSS Ends Here  */

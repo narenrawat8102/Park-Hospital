@@ -1,0 +1,34 @@
+.hospital-image h1 {
+  position: absolute;
+  margin: 12rem 19.5rem;
+  font-size: 2.7rem;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.about-para {
+  height: 30rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.about-para p {
+  color: black;
+  padding: 0 19rem;
+  text-align: inherit;
+}
+
+.book-appointment {
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.book-appointment img {
+  width: 25rem;
+  height: 5.9rem;
+}
