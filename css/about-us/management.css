@@ -1,0 +1,53 @@
+.our-management {
+  height: 26.7rem;
+  background-color: #ec6a25;
+  display: flex;
+  align-items: center;
+  padding-left: 16.7rem;
+}
+
+.our-management h1 {
+  font-size: 2.7rem;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.management-images {
+  width: 117rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.management-images h2 {
+  text-align: center;
+  margin: 6rem 0 1rem;
+  text-transform: uppercase;
+  color: #ec6a25;
+  font-weight: normal;
+}
+
+.under-spacer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+.under-spacer span {
+  width: 12rem;
+  background-color: grey;
+  height: 0.5rem;
+}
+
+.image-para {
+  display: flex;
+  gap: 2rem;
+}
+
+.image-para img {
+  width: 35rem;
+  height: 49.3rem;
+}
+
+.image-para p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}

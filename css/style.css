@@ -113,9 +113,7 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  /* background-color: rgb(221, 221, 221); */
   top: 36px;
-  /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
@@ -138,6 +136,21 @@ nav ul ul li {
 
 nav ul ul li a {
   color: #000;
+}
+
+.info-tollfree a,
+.info-tollfree p {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.info-tollfree a:hover {
+  color: rgb(243, 125, 53);
+}
+
+.info-tollfree .fa-envelope + a {
+  margin-right: 25px;
 }
 /* Header CSS Ends Here  */
 
@@ -518,5 +531,21 @@ footer {
 .copy-logo .fa-dribbble:hover {
   background-color: rgb(227, 82, 138);
   color: #fff;
+}
+
+.book-appointment {
+  height: 6rem;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.book-appointment img {
+  width: 25rem;
+  height: 5.9rem;
 }
 /* Footer CSS Ends Here  */
